@@ -1,0 +1,14 @@
+llm:
+  model_name: ""
+  temperature: 0.1
+  action_max_tokens: 2048
+  action_timeout: 90
+  base_url: ""
+
+encoder:
+  model_name: ""
+
+runner:
+  default_condition: "full"
+  default_num_episodes: 5
+  task_indices: []

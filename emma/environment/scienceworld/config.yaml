@@ -1,0 +1,20 @@
+llm:
+  model_name: ""
+  protocol: "responses"
+  temperature: 0.1
+  base_url: ""
+
+encoder:
+  model_name: ""
+
+memory:
+  retrieval_threshold: 0.75
+  merge_threshold: 0.99
+
+runner:
+  max_steps_per_episode: 30
+  default_condition: "full"
+  default_num_episodes: 3
+  task_names: []
+  variation_indices: [0]
+  seed_memory_files: []
