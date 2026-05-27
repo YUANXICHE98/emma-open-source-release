@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this public preview, please cite the EMMA paper once available."
+title: "EMMA Public Preview"
+authors:
+  - family-names: EMMA
+date-released: 2026-05-27
+version: 0.1.0
+license: MIT

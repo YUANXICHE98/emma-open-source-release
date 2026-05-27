@@ -11,6 +11,13 @@ while withholding the unpublished core implementation until the paper is accepte
 - Benchmark entry points as placeholders
 - Public-facing notes for reviewers
 
+## Repository layout
+- `emma/`: package boundary and benchmark shells
+- `docs/`: public preview policy and release notes
+- `CONTRIBUTING.md`: contribution guidance for the preview
+- `SECURITY.md`: reporting policy for accidental exposure
+- `CITATION.cff`: citation placeholder for the released work
+
 ## What is intentionally withheld
 - Core implementation details
 - Energy/potential scoring internals and task-family parameterization
@@ -27,3 +34,6 @@ placeholder code link rather than a complete artifact.
 - Public link: available for review metadata and project inspection.
 - Reproducibility: deferred until the post-acceptance release.
 - Security posture: no secrets, private seeds, local paths, or internal benchmark artifacts are bundled.
+
+## Versioning
+This preview is versioned as a staging artifact. The full repository will be expanded after acceptance.
